@@ -266,7 +266,7 @@ while True:
         pass
 
     # Prompt to play again
-    replay = input('Would you like to play again? (y/n): ').lower
+    replay = input('Would you like to play again? (y/n): ').lower()
 
     if replay == 'y':
         playing = True
